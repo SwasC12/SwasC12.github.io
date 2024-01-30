@@ -18,7 +18,11 @@
     }
 }
 
-header {
+/* header {
+    
+} */
+
+h1{
     color: blue;
     font-family: 'spacefont', monospace; /* Added comma between font names */
     animation: fadeIn 2s ease-out;
