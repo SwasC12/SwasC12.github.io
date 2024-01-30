@@ -1,13 +1,12 @@
 @font-face {
     font-family: 'CustomFont';
     src: url('../assets/fonts/ScienceAndFiction.ttf') format('truetype'); /* Updated format to 'truetype' */
+    font-family: 'spacefont';
+    src: url('../assets/fonts/sofachrome\ rg.otf') format('openType')
     /* Add additional font formats if necessary */
 }
 
-header {
-    color: blue;
-    font-family: 'CustomFont', monospace; /* Added comma between font names */
-}
+
 
 
  @keyframes fadeIn {
@@ -17,6 +16,12 @@ header {
     to {
         opacity: 1;
     }
+}
+
+header {
+    color: blue;
+    font-family: 'spacefont', monospace; /* Added comma between font names */
+    animation: fadeIn 2s ease-out;
 }
 
 
