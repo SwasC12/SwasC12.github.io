@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'CustomFont';
+    src: url('../assets/fonts/ScienceAndFiction.ttf') format('truetype'); /* Updated format to 'truetype' */
+    /* Add additional font formats if necessary */
+}
+
+header {
+    color: blue;
+    font-family: 'CustomFont', monospace; /* Added comma between font names */
+}
+
+
+ @keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+img {
+    animation: fadeIn 2s ease-out;
+    max-width: 10%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+} 
+
+
+body {
+    background-image: url('../assets/images/space_bg2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
