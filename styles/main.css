@@ -18,9 +18,7 @@
     }
 }
 
-/* header {
-    
-} */
+
 
 h1{
     color: blue;
@@ -29,15 +27,19 @@ h1{
 }
 
 
-img {
+  img {
     animation: fadeIn 2s ease-out;
-    max-width: 10%;
+    width: 60%; /* Set the maximum width to 50% of the container's width */
     height: auto;
-    position: absolute;
+     position: absolute;
+    /* display: block; */
     top: 0;
     left: 50%;
     transform: translateX(-50%);
-} 
+    
+}  
+
+
 
 
 body {
