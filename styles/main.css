@@ -44,16 +44,6 @@ h1{
     
 }  
 
-/* #retro1{
-    animation: fadeIn 10s ease-out;
-    width: 60%;
-    height: auto;
-    position: absolute;
-    margin-top: 150px;
-    left: 50%;
-    transform: translateX(-50%) ;
-} */
-
 #retro2{
     animation: fadeIn 15s ease-in;
     width: 60%;
@@ -86,7 +76,7 @@ body {
 .download-button{
     display: inline-block;
     padding: 10px 20px;
-    background-color: blue;
+    background-image: linear-gradient(to right, #2a32d1, #4d53c6); /* Gradient background */
     color: #fff;
     border-radius: 5px;
     text-decoration: none;
@@ -98,6 +88,24 @@ body {
 }
 
 
+.about{
+    display: inline-block;
+    padding: 10px 20px;
+    background-image: linear-gradient(to right, #4e54c8, #8f94fb); /* Gradient background */
+    color: #fff;
+    text-decoration: none;
+    border: none; /* Remove border */
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin-top: 20px; /* Adjust as needed */
+}
+
+.about:hover{
+    opacity: 0.9;
+}
+
+
+
 
 body {
     background-image: url('../assets/images/space_bg2.jpg');
@@ -107,4 +115,12 @@ body {
     height: 120vh;
     margin: 0;
     padding: 0;
+}
+
+main{
+    flex: 1;
+}
+
+footer{
+    margin-top: auto;
 }
