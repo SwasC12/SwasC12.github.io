@@ -39,6 +39,36 @@ h1{
     
 }  
 
+#retro1{
+    animation: fadeIn 10s ease-out;
+    width: 60%;
+    height: auto;
+    position: absolute;
+    margin-top: 150px;
+    left: 50%;
+    transform: translateX(-50%) ;
+}
+
+#retro2{
+    animation: fadeIn 15s ease-in;
+    width: 60%;
+    height: auto;
+    position: absolute;
+    margin-top: 430px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Hide scrollbar for WebKit browsers */
+::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for Firefox */
+body {
+    scrollbar-width: none;
+}
+
 
 
 
@@ -47,7 +77,7 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 120vh;
     margin: 0;
     padding: 0;
 }
