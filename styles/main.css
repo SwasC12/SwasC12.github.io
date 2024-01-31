@@ -6,6 +6,11 @@
     /* Add additional font formats if necessary */
 }
 
+@media only screen and (max-width: 600px) {
+    /* CSS rules for screens smaller than 600px (e.g., mobile devices) */
+}
+
+
 
 
 
