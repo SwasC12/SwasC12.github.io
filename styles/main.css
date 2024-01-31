@@ -44,7 +44,7 @@ h1{
     
 }  
 
-#retro1{
+/* #retro1{
     animation: fadeIn 10s ease-out;
     width: 60%;
     height: auto;
@@ -52,15 +52,24 @@ h1{
     margin-top: 150px;
     left: 50%;
     transform: translateX(-50%) ;
-}
+} */
 
 #retro2{
     animation: fadeIn 15s ease-in;
     width: 60%;
     height: auto;
     position: absolute;
-    margin-top: 430px;
+    margin-top: 500px;
     left: 50%;
+    transform: translateX(-50%);
+}
+
+#glowcan{
+    width: 20%;
+    height: auto;
+    position: absolute;
+    margin-top: 150px;
+    left: 50;
     transform: translateX(-50%);
 }
 
@@ -74,6 +83,19 @@ body {
     scrollbar-width: none;
 }
 
+.download-button{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: blue;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.download-button:hover{
+    background-color: #0056b3;
+}
 
 
 
