@@ -38,6 +38,7 @@ body{
 .about-text div {
     display: block; /* Ensures each line is on its own line */
     color: rgb(0, 255, 81);
+    margin-top: 300px;
 
 }
 
