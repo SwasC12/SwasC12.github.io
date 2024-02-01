@@ -4,7 +4,7 @@ let index = 0;
 
 function typeWriter() {
     if (index < text.length) {
-        document.getElementById("typing-heading").innerHTML += text.charAt(index);
+        document.getElementById("typing-text").innerHTML += text.charAt(index);
         index++;
         setTimeout(typeWriter, 100); // Adjust typing speed (milliseconds)
     }
