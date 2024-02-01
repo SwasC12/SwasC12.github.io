@@ -37,12 +37,13 @@
     animation: fadeIn 2s ease-out;
 } */
 
-p{
+h1{
     color: white;
     font-family: 'Courier New', Courier, monospace;
     left: 50;
-    transform: translateX(-50%);
+    transform: translateX(-50);
     margin-top: 350;
+    position: center;
 }
 
 

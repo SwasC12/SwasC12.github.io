@@ -1,5 +1,5 @@
 console.log()
-const text = "Why not choose the developer thats Extra'Ordinary'";
+const text = "Why not choose the developer thats Extra'Ordinary'?";
 let index = 0;
 
 function typeWriter() {
