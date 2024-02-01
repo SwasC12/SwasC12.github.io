@@ -1,18 +1,18 @@
 @font-face {
     font-family: 'CustomFont';
     src: url('../assets/fonts/ScienceAndFiction.ttf') format('truetype'); /* Updated format to 'truetype' */
+    
+    /* Add additional font formats if necessary */
+}
+
+@font-face{
     font-family: 'spacefont';
     src: url('../assets/fonts/sofachrome\ rg.otf') format('openType')
-    /* Add additional font formats if necessary */
 }
 
 @media only screen and (max-width: 600px) {
     /* CSS rules for screens smaller than 600px (e.g., mobile devices) */
 }
-
-
-
-
 
  @keyframes fadeIn {
     from {
@@ -26,17 +26,17 @@
 
 
 h1{
-    color: blue;
-    font-family: 'spacefont', monospace; /* Added comma between font names */
+    color: rgb(216, 216, 239);
+    font-family: 'Courier New', Courier, monospace;
     animation: fadeIn 2s ease-out;
 }
 
 
-  img {
+img {
     animation: fadeIn 2s ease-out;
     width: 60%; /* Set the maximum width to 50% of the container's width */
     height: auto;
-     position: absolute;
+        position: absolute;
     /* display: block; */
     top: 0;
     left: 50%;
@@ -49,19 +49,12 @@ h1{
     width: 60%;
     height: auto;
     position: absolute;
-    margin-top: 500px;
+    margin-top: 300px;
     left: 50%;
     transform: translateX(-50%);
 }
 
-#glowcan{
-    width: 20%;
-    height: auto;
-    position: absolute;
-    margin-top: 150px;
-    left: 50;
-    transform: translateX(-50%);
-}
+
 
 /* Hide scrollbar for WebKit browsers */
 ::-webkit-scrollbar {
@@ -81,6 +74,7 @@ body {
     border-radius: 5px;
     text-decoration: none;
     transition: background-color 0.3s;
+    margin-top: 75px;
 }
 
 .download-button:hover{
@@ -97,21 +91,29 @@ body {
     border: none; /* Remove border */
     border-radius: 5px;
     transition: background-color 0.3s;
-    margin-top: 20px; /* Adjust as needed */
+    margin-top: 75px;
+    /* left: 100;
+    transform: translateX(-50%); */
 }
 
 .about:hover{
     opacity: 0.9;
 }
 
+.button-container{
+    display: flex;
+    justify-content: center;
+}
+
 
 
 
 body {
-    background-image: url('../assets/images/space_bg2.jpg');
+    /* background-image: url('../assets/images/space_bg2.jpg'); */
+    background-image: url('../assets/images/space_bg4.gif');
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     height: 120vh;
     margin: 0;
     padding: 0;
