@@ -8,22 +8,18 @@
     src: url(../assets/fonts/BebasNeue-Regular.woff) format('woff');
 }
 
-@keyframes gradient_animation{
-    0%{
-        background-image: linear-gradient(120deg, #a6c0fe, #f68084);
-    }
-
-    50%{
-        background-image: linear-gradient(120deg, #f68084, #a6c0fe);
-    }
-
-    100%{
-        background-image: linear-gradient(120deg, #a6c0fe, #f68084);
-    }
+@font-face {
+    font-family: 'paragraph2';
+    src: url(../assets/fonts/LEMONMILK-Bold.otf) format('openType');
 }
+
+
 
 body{
     background-image: url(../assets/images/mario_bg.gif);
+    /* background-image: url(../assets/images/white.jpg); */
+
+
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -35,6 +31,7 @@ body{
 
 #hi{
     font-family: 'custom';
+    color: #B2EE9B;
 }
 
 @keyframes gradient2{
@@ -46,23 +43,31 @@ body{
     }
 }
 
-.nested-about{
+.nested-about {
     font-family: 'paragraph';
-    /* animation: gradient_animation 5s ease-in-out forwards; */
-    /* background-size: 400% 400%; */
     background-image: linear-gradient(to right,
-     #FF6978,
-      #350068,
-      #38AECC,
-       #66ff99,
-        #B2EE9B, 
-         #DAFF7D,); /* Define your gradient colors */
+        #FF6978,
+        #B2EE9B,
+        #38AECC,
+        #66ff99,
+        #DAFF7D,
+        #2f00ff,
+        #a200ff,
+        #ff0040,
+        #00ff6a,
+        #f7b733,
+        #FF6978 /* Duplicate the first color at the end */
+    );
     background-size: 200% auto;
-    color: transparent;
-    background-clip: text;
+    color: transparent; /* Make the text transparent */
+    background-clip: text; /* Clip the gradient to the text */
     -webkit-background-clip: text; /* For Safari */
     animation: gradient2 5s linear infinite;
+    font-size: larger;
 }
+
+
+
 
 /* Hide scrollbar for WebKit browsers */
 ::-webkit-scrollbar {
